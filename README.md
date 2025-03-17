@@ -27,5 +27,5 @@ This dataset is intended to support research in medical image de-identification 
 
 Here are the metrics of multiple pipelines.
 
-<img width="772" alt="image" src="https://github.com/user-attachments/assets/489746e5-8446-4fe0-b7d7-0f98e8e03a1d" />
+<img width="774" alt="image" src="https://github.com/user-attachments/assets/03a82729-ae7d-4e32-8343-36190cf97e41" />
 

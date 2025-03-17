@@ -3,9 +3,9 @@
 
 This dataset has been created as a resource for evaluating medical image de-identification methods. Our approach was inspired by the paper "A DICOM dataset for evaluation of medical image de-identification", which explores synthetic overlays in DICOM images. As a starting point, we used the publicly available Pseudo-PHI DICOM dataset. (See attached license for details.)
 
-Dataset Generation Process
-Image Extraction: Images were extracted from the original DICOM files.
-Synthetic Overlay Generation:
+#### Dataset Generation Process
+1. Image Extraction: Images were extracted from the original DICOM files.
+2. Synthetic Overlay Generation:
 Metadata-derived text overlays were created, simulating patient-identifying information.
 Two types of text annotations were generated.
 Text overlays were placed at varying corner positions within the images.

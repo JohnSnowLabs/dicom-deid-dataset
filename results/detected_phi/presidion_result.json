@@ -1,0 +1,247 @@
+{
+    "571403367_07-11-2019-DBT_Reconstructed_Volume-37558_DBT_slices-78838_08-01.dcm": {
+        "gt": [
+            "ball, hendrix and johnson community clinic",
+            "2019 jul 11",
+            "571403367",
+            "henry nicole"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-069.dcm": {
+        "gt": [
+            "nielsen, jimenez and aguilar community hospital",
+            "1999 sep 23",
+            "3209648408",
+            "sexton carmen",
+            "67",
+            "08/04/1932"
+        ],
+        "pred": [
+            "op:",
+            "08/04/1932"
+        ],
+        "precision": 0.5,
+        "recall": 0.16666666666666666
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-024.dcm": {
+        "gt": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-031.dcm": {
+        "gt": [
+            "nielsen, jimenez and aguilar community hospital",
+            "1999 sep 23",
+            "3209648408",
+            "sexton carmen",
+            "67",
+            "08/04/1932"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-17.dcm": {
+        "gt": [
+            "1988 jun 09",
+            "beasley andrew",
+            "m",
+            "05/03/1937"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-052.dcm": {
+        "gt": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-053.dcm": {
+        "gt": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-002.dcm": {
+        "gt": [
+            "1999 sep 23",
+            "sexton carmen",
+            "f",
+            "08/04/1932"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-19.dcm": {
+        "gt": [
+            "maynard-clarke medical clinic",
+            "1988 jun 09",
+            "6415974217",
+            "beasley andrew",
+            "51",
+            "05/03/1937"
+        ],
+        "pred": [
+            "ley-andrew",
+            "03/1937"
+        ],
+        "precision": 0.0,
+        "recall": 0.0
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-106.dcm": {
+        "gt": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-049.dcm": {
+        "gt": [
+            "nielsen, jimenez and aguilar community hospital",
+            "1999 sep 23",
+            "3209648408",
+            "sexton carmen",
+            "67",
+            "08/04/1932"
+        ],
+        "pred": [
+            "dob:",
+            "08/04/1932"
+        ],
+        "precision": 0.5,
+        "recall": 0.16666666666666666
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-013.dcm": {
+        "gt": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-129.dcm": {
+        "gt": [
+            "nielsen, jimenez and aguilar community hospital",
+            "1999 sep 23",
+            "3209648408",
+            "sexton carmen",
+            "67",
+            "08/04/1932"
+        ],
+        "pred": [
+            "institution",
+            "study",
+            "date:",
+            "name:",
+            "nielsen,",
+            "1999",
+            "sep",
+            "23",
+            "id:",
+            "carmen,",
+            "patient",
+            "3209648408",
+            "name:",
+            "sexton\u201c",
+            "\u2018age:",
+            "67",
+            "dos:",
+            "08/04/1932",
+            "imenez",
+            "and",
+            "aguilar",
+            "community",
+            "hospital"
+        ],
+        "precision": 0.13043478260869565,
+        "recall": 0.5
+    },
+    "8155012288_09-08-1999-FORFILE_CT_CHABPEL_-_CD_for_8155012288-44118_1_000000-SCOUT-12438_2-1.dcm": {
+        "gt": [
+            "1999 sep 08",
+            "hoover rodney",
+            "m",
+            "07/28/1942"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "571403367_07-11-2019-DBT_Reconstructed_Volume-37558_DBT_slices-78838_37-01.dcm": {
+        "gt": [
+            "ball, hendrix and johnson community clinic",
+            "2019 jul 11",
+            "571403367",
+            "henry nicole"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "571403367_07-11-2019-DBT_Reconstructed_Volume-37558_DBT_slices-78838_54-01.dcm": {
+        "gt": [
+            "ball, hendrix and johnson community clinic",
+            "2019 jul 11",
+            "571403367",
+            "henry nicole"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-011.dcm": {
+        "gt": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "pred": [
+            "6670427471",
+            "woverratm"
+        ],
+        "precision": 0.5,
+        "recall": 0.16666666666666666
+    }
+}

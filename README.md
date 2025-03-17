@@ -23,6 +23,9 @@ This dataset has been created as a resource for evaluating medical image de-iden
 
 This dataset is intended to support research in medical image de-identification and text removal techniques.
 
+### Environment
+
+
 ### Metrics
 
 Here are the metrics of multiple pipelines.

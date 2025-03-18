@@ -1,4 +1,5 @@
-# dicom-deid-dataset
+# Dicom Deidentification Evaluation & Dataset 
+
 ## Public Dataset: DICOM with Synthetic Text Overlays for De-Identification Research
 
 This dataset has been created to evaluate medical image de-identification methods. Our approach was inspired by the paper "A DICOM dataset for evaluation of medical image de-identification", which explores synthetic overlays in DICOM images. As a starting point, we used the publicly available Pseudo-PHI DICOM dataset. (See attached license for details.)

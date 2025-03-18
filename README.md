@@ -53,8 +53,8 @@ Databricks:
 
 | **Model**                                                   | **Colab (A100) - 40GB** | **Databricks Driver (64GB)** | **Databricks Executors (16GB × 2)** |
 |------------------------------------------------------------|----------------|------------------------|------------------------|
-|                                                            | **Total Time** | **Avg Time**           | **Total Time** | **Avg Time** |
-| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)**  | **0**          | **3.63**               | **69.96**     | **4.66**     | **41.34** | **2.76**  |
-| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **0**          | **4.06**               | **80.83**     | **5.39**     | **47.94** | **3.2**   |
-| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)**         | **0**          | **0.68**               | **17.25**     | **1.15**     | **14.95** | **1.0**   |
-| 🐍 **ImageToText (Python)**                                   | **0**          | **0.31**               | **18.2**      | **1.21**     | **13.4**  | **0.89**  |
+|                                                            | **Avg Time**           | **Avg Time** | **Avg Time** |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)**  | **3.63**              | **4.66**     | **2.76**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **4.06**               | **5.39**     | **3.2**   |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)**         | **0.68**               | **1.15**     | **1.0**   |
+| 🐍 **ImageToText (Python)**                                   | **0.31**               | **18.2**      | **1.21**     | **0.89**  |

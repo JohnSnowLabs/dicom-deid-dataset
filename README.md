@@ -23,6 +23,16 @@ This dataset has been created to evaluate medical image de-identification method
 
 This dataset is intended to support research in medical image de-identification and text removal techniques.
 
+### File Structure 
+
+- Presidio_Metrics.ipynb
+- Visual_NLP_Metrics.ipynb 
+- creds.json ( Visual NLP Credentials )
+- dicom_image_pii_verify_engine.py ( Fix for Presidio )
+- prepare_data.py ( Script Used to Generate Ground Truth and Extract Dicom Files From Zip )
+- results/detected_phi ( JSON files with NER Results )
+- results/image_result ( Obfuscated final Images )
+
 ### Environment
 
 We created two environments to measure Visual NLP pipelines with Presidio [ Google Collab, Databricks ] 
@@ -61,5 +71,7 @@ Databricks:
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **4.06**               | **5.39**     | **3.2**   |
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)**         | **0.68**               | **1.15**     | **1.0**   |
 | 🐍 **ImageToText (Python)**                                   | **0.31**               | **1.21**     | **0.89**  |
+
+## Observations 
 
 

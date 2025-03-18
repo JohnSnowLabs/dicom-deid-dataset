@@ -51,10 +51,10 @@ Databricks:
 ### Time Metrics 
 
 
-| **Model**                                                   | **Colab (A100) - 40GB** | **Databricks Driver (64GB)** | **Databricks Executors (16GB × 2)** |
+| **Model**                                                   | **Colab (A100) - 40GB** | **Databricks Standalone** | **Databricks Cluster** |
 |------------------------------------------------------------|----------------|------------------------|------------------------|
 |                                                            | **Avg Time**           | **Avg Time** | **Avg Time** |
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)**  | **3.63**              | **4.66**     | **2.76**  |
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **4.06**               | **5.39**     | **3.2**   |
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)**         | **0.68**               | **1.15**     | **1.0**   |
-| 🐍 **ImageToText (Python)**                                   | **0.31**               | **18.2**      | **1.21**     | **0.89**  |
+| 🐍 **ImageToText (Python)**                                   | **0.31**               | **1.21**     | **0.89**  |

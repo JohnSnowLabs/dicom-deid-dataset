@@ -1,0 +1,300 @@
+{
+    "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-15.dcm": {
+        "gt": [
+            "maynard-clarke medical clinic",
+            "1988 jun 09",
+            "6415974217",
+            "beasley andrew",
+            "51",
+            "05/03/1937"
+        ],
+        "pred": [
+            "dos:",
+            "05/03/1937"
+        ],
+        "precision": 0.5,
+        "recall": 0.16666666666666666
+    },
+    "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-17.dcm": {
+        "gt": [
+            "1988 jun 09",
+            "beasley andrew",
+            "m",
+            "05/03/1937"
+        ],
+        "pred": [
+            "andrew",
+            "j",
+            "1988",
+            "jun",
+            "09",
+            "beasley",
+            "dos:",
+            "05/03/1937"
+        ],
+        "precision": 0.125,
+        "recall": 0.25
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-107.dcm": {
+        "gt": [
+            "2000 may 26",
+            "rivera michael",
+            "m",
+            "03/31/1924"
+        ],
+        "pred": [
+            "michael",
+            "m",
+            "2000",
+            "may",
+            "26",
+            "rivera",
+            "dor:",
+            "0:"
+        ],
+        "precision": 0.125,
+        "recall": 0.25
+    },
+    "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-126.dcm": {
+        "gt": [
+            "1999 sep 23",
+            "sexton carmen",
+            "f",
+            "08/04/1932"
+        ],
+        "pred": [
+            "carmen",
+            "f",
+            "1999",
+            "sep",
+            "23",
+            "sexton",
+            "dob:",
+            "08/04/1932"
+        ],
+        "precision": 0.25,
+        "recall": 0.5
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-095.dcm": {
+        "gt": [
+            "2000 may 26",
+            "rivera michael",
+            "m",
+            "03/31/1924"
+        ],
+        "pred": [
+            "2000.",
+            "may",
+            "26\u00b0rivehaimichmel",
+            "03/30/1524"
+        ],
+        "precision": 0.0,
+        "recall": 0.0
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-101.dcm": {
+        "gt": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "pred": [
+            "76",
+            "michael",
+            "name:",
+            "rivera",
+            "age:",
+            "ob!",
+            "03/31/1974",
+            "a"
+        ],
+        "precision": 0.125,
+        "recall": 0.16666666666666666
+    },
+    "8155012288_09-08-1999-FORFILE_CT_CHABPEL_-_CD_for_8155012288-44118_1_000000-SCOUT-12438_2-1.dcm": {
+        "gt": [
+            "williams-johnson medical center",
+            "1999 sep 08",
+            "8155012288",
+            "hoover rodney",
+            "57",
+            "07/28/1942"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "339833062_07-05-2001-19638_3001578_000000-60758_1-2.dcm": {
+        "gt": [
+            "2001 jul 05",
+            "martin chad"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "9189822998_02-15-1989-CT_HIP_WO_CONTRASTBILAT-50838_5865_000000-Surview_Test-43798_1-3.dcm": {
+        "gt": [
+            "",
+            "1989 feb 15",
+            "9189822998",
+            "thompson marcus",
+            "78",
+            "12/20/1910"
+        ],
+        "pred": [
+            "ed",
+            "institution",
+            "eee",
+            "ae",
+            "eyer",
+            "thompson",
+            "ey",
+            "marcus",
+            "se",
+            "name:",
+            "el",
+            "per",
+            "eb",
+            "eall",
+            "bcd"
+        ],
+        "precision": 0.0,
+        "recall": 0.0
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-098.dcm": {
+        "gt": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "pred": [
+            "community",
+            "institution",
+            "study",
+            "patient",
+            "name:",
+            "name:",
+            "coleman-cooper",
+            "date:",
+            "2000",
+            "may",
+            "26,",
+            "id:",
+            "6670427471",
+            "rivera",
+            "michael"
+        ],
+        "precision": 0.06666666666666667,
+        "recall": 0.16666666666666666
+    },
+    "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-105.dcm": {
+        "gt": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "pred": [
+            "community",
+            "clinic",
+            "coleman-cooper",
+            "institution",
+            "patient",
+            "id:",
+            "name:",
+            "rivera",
+            "ag",
+            "name:",
+            "000",
+            "may",
+            "26",
+            "6670427471",
+            "michael",
+            "es.",
+            "age",
+            "is"
+        ],
+        "precision": 0.05555555555555555,
+        "recall": 0.16666666666666666
+    },
+    "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-19.dcm": {
+        "gt": [
+            "maynard-clarke medical clinic",
+            "1988 jun 09",
+            "6415974217",
+            "beasley andrew",
+            "51",
+            "05/03/1937"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-141.dcm": {
+        "gt": [
+            "nielsen, jimenez and aguilar community hospital",
+            "1999 sep 23",
+            "3209648408",
+            "sexton carmen",
+            "67",
+            "08/04/1932"
+        ],
+        "pred": [
+            "and",
+            "aguilar",
+            "community",
+            "hospital",
+            "jimenez",
+            "nielsen,",
+            "institution",
+            "\u2018age:",
+            "67",
+            "name:",
+            "sep",
+            "23,",
+            "carmen",
+            "study",
+            "date:",
+            "1999",
+            "patient",
+            "1d:",
+            "3209642408,",
+            "name:",
+            "sexton",
+            "dos:",
+            "08/04/1932"
+        ],
+        "precision": 0.08695652173913043,
+        "recall": 0.3333333333333333
+    },
+    "571403367_07-11-2019-DBT_Reconstructed_Volume-37558_DBT_slices-78838_51-01.dcm": {
+        "gt": [
+            "ball, hendrix and johnson community clinic",
+            "2019 jul 11",
+            "571403367",
+            "henry nicole"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    },
+    "339833062_07-05-2001-19638_3001578_000000-60758_1-7.dcm": {
+        "gt": [
+            "mccoy medical clinic",
+            "2001 jul 05",
+            "339833062",
+            "martin chad"
+        ],
+        "pred": [],
+        "precision": 0,
+        "recall": 0.0
+    }
+}

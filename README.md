@@ -71,7 +71,3 @@ Databricks:
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **4.06**               | **5.39**     | **3.2**   |
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)**         | **0.68**               | **1.15**     | **1.0**   |
 | 🐍 **ImageToText (Python)**                                   | **0.31**               | **1.21**     | **0.89**  |
-
-## Observations 
-
-

@@ -1,7 +1,7 @@
 # dicom-deid-dataset
 ## Public Dataset: DICOM with Synthetic Text Overlays for De-Identification Research
 
-This dataset has been created as a resource for evaluating medical image de-identification methods. Our approach was inspired by the paper "A DICOM dataset for evaluation of medical image de-identification", which explores synthetic overlays in DICOM images. As a starting point, we used the publicly available Pseudo-PHI DICOM dataset. (See attached license for details.)
+This dataset has been created to evaluate medical image de-identification methods. Our approach was inspired by the paper "A DICOM dataset for evaluation of medical image de-identification", which explores synthetic overlays in DICOM images. As a starting point, we used the publicly available Pseudo-PHI DICOM dataset. (See attached license for details.)
 
 ### Dataset Generation Process
 1. Image Extraction: Images were extracted from the original DICOM files.
@@ -25,10 +25,36 @@ This dataset is intended to support research in medical image de-identification 
 
 ### Environment
 
+We created two environments to measure Visual NLP pipelines with Presidio [ Google Collab, Databricks ] 
+
+Google Colab:
+
+- We used the standard A100 (40GB) GPU Environment.
+- Used for both Visual NLP Pipelines and Presidio.
+
+Databricks:
+
+ - 16.0 ML (includes Apache Spark 3.5.2, GPU, Scala 2.12)
+ - Visual NLP needs Cuda 12.X and cudNN 9.X for our in-house ONNX models.
+ - Used only for Visual NLP Pipelines.
 
 ### Metrics
 
-Here are the metrics of multiple pipelines.
+| **Model**                                              | **Precision** | **Recall** | **F1-Score** |
+|-----------------------------------------------------------|-------------|--------|----------|
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)** | **0.8**     | **0.8** | **0.8**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **0.9**     | **0.8** | **0.8**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)** | **0.7** | **0.4** | **0.5**  |
+| 🐍 **ImageToText (Python)**                               | **0.5**     | **0.3** | **0.4**  |
+| 🔴 **Presidio**                                           | **0.09**    | **0.13** | **0.1**  |
 
-<img width="774" alt="image" src="https://github.com/user-attachments/assets/03a82729-ae7d-4e32-8343-36190cf97e41" />
+### Time Metrics 
 
+
+| **Model**                                                   | **Colab (A100) - 40GB** | **Databricks Driver (64GB)** | **Databricks Executors (16GB × 2)** |
+|------------------------------------------------------------|----------------|------------------------|------------------------|
+|                                                            | **Total Time** | **Avg Time**           | **Total Time** | **Avg Time** |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)**  | **0**          | **3.63**               | **69.96**     | **4.66**     | **41.34** | **2.76**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **0**          | **4.06**               | **80.83**     | **5.39**     | **47.94** | **3.2**   |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)**         | **0**          | **0.68**               | **17.25**     | **1.15**     | **14.95** | **1.0**   |
+| 🐍 **ImageToText (Python)**                                   | **0**          | **0.31**               | **18.2**      | **1.21**     | **13.4**  | **0.89**  |

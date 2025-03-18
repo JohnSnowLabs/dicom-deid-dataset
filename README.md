@@ -50,11 +50,16 @@ Databricks:
 
 ### Time Metrics 
 
-
-| **Model**                                                   | **Colab (A100) - 40GB** | **Databricks Standalone** | **Databricks Cluster** |
+- Google Colab Notebook utilized a single A100 GPU ( 40 GB ) - 7.62 Credits/hr
+- Databricks Standalone Driver 64 GB - 2.85 dbu/h
+- Databricks Cluster Driver 64 GB, with minimum & maximum 2 Executors 16GB - 4.27 dbu/h
+  
+| **Model**                                                   | **Google Colab** | **Databricks Standalone** | **Databricks Cluster** |
 |------------------------------------------------------------|----------------|------------------------|------------------------|
 |                                                            | **Avg Time**           | **Avg Time** | **Avg Time** |
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)**  | **3.63**              | **4.66**     | **2.76**  |
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **4.06**               | **5.39**     | **3.2**   |
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)**         | **0.68**               | **1.15**     | **1.0**   |
 | 🐍 **ImageToText (Python)**                                   | **0.31**               | **1.21**     | **0.89**  |
+
+

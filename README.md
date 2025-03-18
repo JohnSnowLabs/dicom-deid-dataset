@@ -31,7 +31,7 @@ This dataset is intended to support research in medical image de-identification 
 - dicom_image_pii_verify_engine.py ( Fix for Presidio )
 - prepare_data.py ( Script Used to Generate Ground Truth and Extract Dicom Files From Zip )
 - results/detected_phi ( JSON files with NER Results )
-- results/image_result ( Obfuscated final Images )
+- results/deid_result ( Obfuscated final Images from Presidio and Visual NLP )
 
 ### Environment
 
@@ -61,8 +61,8 @@ Databricks:
 ### Time Metrics 
 
 - Google Colab Notebook utilized a single A100 GPU ( 40 GB ) - 7.62 Credits/hr
-- Databricks Standalone Driver 64 GB - 2.85 dbu/h
-- Databricks Cluster Driver 64 GB, with minimum & maximum 2 Executors 16GB - 4.27 dbu/h
+- Databricks Standalone Driver 64 GB Single GPU g4dn.xLarge[T4] - 2.85 dbu/h
+- Databricks Cluster Driver 64 GB Single GPU g4dn.xLarge[T4], with minimum & maximum 2 Executors 16GB Single GPU g4dn.xLarge[T4] - 4.27 dbu/h
   
 | **Model**                                                   | **Google Colab** | **Databricks Standalone** | **Databricks Cluster** |
 |------------------------------------------------------------|----------------|------------------------|------------------------|
@@ -71,3 +71,11 @@ Databricks:
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **4.06**               | **5.39**     | **3.2**   |
 | 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)**         | **0.68**               | **1.15**     | **1.0**   |
 | 🐍 **ImageToText (Python)**                                   | **0.31**               | **1.21**     | **0.89**  |
+
+### Sample Results
+
+![Dicom Redaction Sample 1](https://github.com/JohnSnowLabs/dicom-deid-dataset/blob/v1_changes/results/output_sample_1.png)
+
+![Dicom Redaction Sample 2](https://github.com/JohnSnowLabs/dicom-deid-dataset/blob/v1_changes/results/output_sample_2.png)
+
+![Dicom Redaction Sample 3](https://github.com/JohnSnowLabs/dicom-deid-dataset/blob/v1_changes/results/output_sample_3.png)

@@ -1,7 +1,8 @@
-# dicom-deid-dataset
+# Dicom Deidentification Evaluation & Dataset 
+
 ## Public Dataset: DICOM with Synthetic Text Overlays for De-Identification Research
 
-This dataset has been created as a resource for evaluating medical image de-identification methods. Our approach was inspired by the paper "A DICOM dataset for evaluation of medical image de-identification", which explores synthetic overlays in DICOM images. As a starting point, we used the publicly available Pseudo-PHI DICOM dataset. (See attached license for details.)
+This dataset has been created to evaluate medical image de-identification methods. Our approach was inspired by the paper "A DICOM dataset for evaluation of medical image de-identification", which explores synthetic overlays in DICOM images. As a starting point, we used the publicly available Pseudo-PHI DICOM dataset. (See attached license for details.)
 
 ### Dataset Generation Process
 1. Image Extraction: Images were extracted from the original DICOM files.
@@ -23,12 +24,60 @@ This dataset has been created as a resource for evaluating medical image de-iden
 
 This dataset is intended to support research in medical image de-identification and text removal techniques.
 
+### File Structure 
+
+- Presidio_Metrics.ipynb
+- Visual_NLP_Metrics.ipynb 
+- creds.json ( Visual NLP Credentials )
+- dicom_image_pii_verify_engine.py ( Fix for Presidio )
+- prepare_data.py ( Script Used to Generate Ground Truth and Extract Dicom Files From Zip )
+- results/detected_phi ( JSON files with NER Results )
+- results/deid_result ( Obfuscated final Images from Presidio and Visual NLP )
+
 ### Environment
 
+We created two environments to measure Visual NLP pipelines with Presidio [ Google Collab, Databricks ] 
+
+Google Colab:
+
+- We used the standard A100 (40GB) GPU Environment.
+- Used for both Visual NLP Pipelines and Presidio.
+
+Databricks:
+
+ - 16.0 ML (includes Apache Spark 3.5.2, GPU, Scala 2.12)
+ - Visual NLP needs Cuda 12.X and cudNN 9.X for our in-house ONNX models.
+ - Used only for Visual NLP Pipelines.
 
 ### Metrics
 
-Here are the metrics of multiple pipelines.
+| **Model**                                              | **Precision** | **Recall** | **F1-Score** |
+|-----------------------------------------------------------|-------------|--------|----------|
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)** | **0.8**     | **0.8** | **0.8**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **0.9**     | **0.8** | **0.8**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)** | **0.7** | **0.4** | **0.5**  |
+| 🐍 **ImageToText (Python)**                               | **0.5**     | **0.3** | **0.4**  |
+| 🔴 **Presidio**                                           | **0.09**    | **0.13** | **0.1**  |
 
-<img width="774" alt="image" src="https://github.com/user-attachments/assets/03a82729-ae7d-4e32-8343-36190cf97e41" />
+### Time Metrics 
 
+- Google Colab Notebook utilized a single A100 GPU ( 40 GB ) - 7.62 Credits/hr
+- Databricks Standalone Driver 64 GB Single GPU g4dn.xLarge[T4] - 2.85 dbu/h
+- Databricks Cluster Driver 64 GB Single GPU g4dn.xLarge[T4], with minimum & maximum 2 Executors 16GB Single GPU g4dn.xLarge[T4] - 4.27 dbu/h
+  
+| **Model**                                                   | **Google Colab** | **Databricks Standalone** | **Databricks Cluster** |
+|------------------------------------------------------------|----------------|------------------------|------------------------|
+|                                                            | **Avg Time**           | **Avg Time** | **Avg Time** |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)**  | **3.63**              | **4.66**     | **2.76**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **4.06**               | **5.39**     | **3.2**   |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)**         | **0.68**               | **1.15**     | **1.0**   |
+| 🐍 **ImageToText (Python)**                                   | **0.31**               | **1.21**     | **0.89**  |
+| 🔴 **Presidio**    | 0.54 | None | None |
+
+### Sample Results
+
+![Dicom Redaction Sample 1](https://github.com/JohnSnowLabs/dicom-deid-dataset/blob/v1_changes/results/output_sample_1.png)
+
+![Dicom Redaction Sample 2](https://github.com/JohnSnowLabs/dicom-deid-dataset/blob/v1_changes/results/output_sample_2.png)
+
+![Dicom Redaction Sample 3](https://github.com/JohnSnowLabs/dicom-deid-dataset/blob/v1_changes/results/output_sample_3.png)

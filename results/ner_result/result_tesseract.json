@@ -1,0 +1,236 @@
+[
+    {
+        "Filename": "571403367_07-11-2019-DBT_Reconstructed_Volume-37558_DBT_slices-78838_51-01.dcm",
+        "Ground Truth": [
+            "ball, hendrix and johnson community clinic",
+            "2019 jul 11",
+            "571403367",
+            "henry nicole"
+        ],
+        "Predicted PHI": [],
+        "Precision": 0,
+        "Recall": 0.0
+    },
+    {
+        "Filename": "8155012288_09-08-1999-FORFILE_CT_CHABPEL_-_CD_for_8155012288-44118_1_000000-SCOUT-12438_2-1.dcm",
+        "Ground Truth": [
+            "williams-johnson medical center",
+            "1999 sep 08",
+            "8155012288",
+            "hoover rodney",
+            "57",
+            "07/28/1942"
+        ],
+        "Predicted PHI": [
+            "f"
+        ],
+        "Precision": 0.0,
+        "Recall": 0.0
+    },
+    {
+        "Filename": "339833062_07-05-2001-19638_3001578_000000-60758_1-7.dcm",
+        "Ground Truth": [
+            "mccoy medical clinic",
+            "2001 jul 05",
+            "339833062",
+            "martin chad"
+        ],
+        "Predicted PHI": [],
+        "Precision": 0,
+        "Recall": 0.0
+    },
+    {
+        "Filename": "339833062_07-05-2001-19638_3001578_000000-60758_1-2.dcm",
+        "Ground Truth": [
+            "2001 jul 05",
+            "martin chad"
+        ],
+        "Predicted PHI": [],
+        "Precision": 0,
+        "Recall": 0.0
+    },
+    {
+        "Filename": "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-101.dcm",
+        "Ground Truth": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "Predicted PHI": [
+            "6670427471",
+            "rivera michael",
+            "76"
+        ],
+        "Precision": 1.0,
+        "Recall": 0.5
+    },
+    {
+        "Filename": "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-105.dcm",
+        "Ground Truth": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "Predicted PHI": [
+            "6670427471",
+            "rivera michael"
+        ],
+        "Precision": 1.0,
+        "Recall": 0.3333333333333333
+    },
+    {
+        "Filename": "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-098.dcm",
+        "Ground Truth": [
+            "coleman-cooper community clinic",
+            "2000 may 26",
+            "6670427471",
+            "rivera michael",
+            "76",
+            "03/31/1924"
+        ],
+        "Predicted PHI": [
+            "26, pati",
+            "6670427471",
+            "rivera michael"
+        ],
+        "Precision": 0.6666666666666666,
+        "Recall": 0.3333333333333333
+    },
+    {
+        "Filename": "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-126.dcm",
+        "Ground Truth": [
+            "1999 sep 23",
+            "sexton carmen",
+            "f",
+            "08/04/1932"
+        ],
+        "Predicted PHI": [
+            "sexton carmen f",
+            "08/04/1932"
+        ],
+        "Precision": 0.5,
+        "Recall": 0.25
+    },
+    {
+        "Filename": "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-107.dcm",
+        "Ground Truth": [
+            "2000 may 26",
+            "rivera michael",
+            "m",
+            "03/31/1924"
+        ],
+        "Predicted PHI": [
+            "rivera michael",
+            "m",
+            "03/31/1924"
+        ],
+        "Precision": 1.0,
+        "Recall": 0.75
+    },
+    {
+        "Filename": "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-095.dcm",
+        "Ground Truth": [
+            "2000 may 26",
+            "rivera michael",
+            "m",
+            "03/31/1924"
+        ],
+        "Predicted PHI": [],
+        "Precision": 0,
+        "Recall": 0.0
+    },
+    {
+        "Filename": "9189822998_02-15-1989-CT_HIP_WO_CONTRASTBILAT-50838_5865_000000-Surview_Test-43798_1-3.dcm",
+        "Ground Truth": [
+            "",
+            "1989 feb 15",
+            "9189822998",
+            "thompson marcus",
+            "78",
+            "12/20/1910"
+        ],
+        "Predicted PHI": [
+            "9189822998",
+            "thompson marcus",
+            "12/20/1910"
+        ],
+        "Precision": 1.0,
+        "Recall": 0.5
+    },
+    {
+        "Filename": "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-15.dcm",
+        "Ground Truth": [
+            "maynard-clarke medical clinic",
+            "1988 jun 09",
+            "6415974217",
+            "beasley andrew",
+            "51",
+            "05/03/1937"
+        ],
+        "Predicted PHI": [
+            "1988 ju",
+            "05/03/1937"
+        ],
+        "Precision": 0.5,
+        "Recall": 0.16666666666666666
+    },
+    {
+        "Filename": "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-17.dcm",
+        "Ground Truth": [
+            "1988 jun 09",
+            "beasley andrew",
+            "m",
+            "05/03/1937"
+        ],
+        "Predicted PHI": [
+            "dos",
+            "05/03/1937"
+        ],
+        "Precision": 0.5,
+        "Recall": 0.25
+    },
+    {
+        "Filename": "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-19.dcm",
+        "Ground Truth": [
+            "maynard-clarke medical clinic",
+            "1988 jun 09",
+            "6415974217",
+            "beasley andrew",
+            "51",
+            "05/03/1937"
+        ],
+        "Predicted PHI": [
+            "maynard-clarke medical clinic",
+            "6415974217"
+        ],
+        "Precision": 1.0,
+        "Recall": 0.3333333333333333
+    },
+    {
+        "Filename": "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-141.dcm",
+        "Ground Truth": [
+            "nielsen, jimenez and aguilar community hospital",
+            "1999 sep 23",
+            "3209648408",
+            "sexton carmen",
+            "67",
+            "08/04/1932"
+        ],
+        "Predicted PHI": [
+            "ji yenez",
+            "aguilar community hospital",
+            "3209648408",
+            "sexton carmen",
+            "67",
+            "08/04/1932"
+        ],
+        "Precision": 0.6666666666666666,
+        "Recall": 0.6666666666666666
+    }
+]

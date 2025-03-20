@@ -75,7 +75,7 @@ Databricks:
 
 ### Time Metrics (CPU) - Average Time/File
 
-- Google Colab Notebook HIGH RAM 8 Core CPU - 0.18 Credits/hr
+- Google Colab Notebook HIGH RAM [ 8 Cores ] - 0.18 Credits/hr
 - Databricks Standalone Driver 64 GB [ 16 Cores ] m4.4xlarge - 3 dbu/h
 - Databricks Cluster Driver 64 GB [ 16 Cores ] m4.4xlarge, with minimum & maximum 8 Executors 32GB [ 8 Cores ] m4.2xlarge - 15 dbu/h
   

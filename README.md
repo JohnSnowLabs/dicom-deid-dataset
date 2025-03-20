@@ -39,7 +39,7 @@ This dataset is intended to support research in medical image de-identification 
 We wanted to make sure our measurements were as accurate as possible, so we hand-picked a group of DICOM images to work with. We focused on choosing only the best quality images, the ones that really mattered clinically. This way, we avoided any skewed DICOM data. Basically, we wanted to make sure our numbers reflected real-world medical imaging, not something artificial.
 
     [
-    '6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-101.dcm',
+     '6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-101.dcm',
      '6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-098.dcm',
      '6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-105.dcm',
      '3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-141.dcm',

@@ -62,8 +62,8 @@ Databricks:
 ### Time Metrics 
 
 - Google Colab Notebook utilized a single A100 GPU ( 40 GB ) - 7.62 Credits/hr
-- Databricks Standalone Driver 64 GB Single GPU g4dn.xLarge[T4] - 2.85 dbu/h
-- Databricks Cluster Driver 64 GB Single GPU g4dn.xLarge[T4], with minimum & maximum 2 Executors 16GB Single GPU g4dn.xLarge[T4] - 4.27 dbu/h
+- Databricks Standalone Driver 64 GB Single GPU g4dn.4xLarge[T4] - 2.85 dbu/h
+- Databricks Cluster Driver 64 GB Single GPU g4dn.4xLarge[T4], with minimum & maximum 2 Executors 16GB Single GPU g4dn.xLarge[T4] - 4.27 dbu/h
   
 | **Model**                                                   | **Google Colab** | **Databricks Standalone** | **Databricks Cluster** |
 |------------------------------------------------------------|----------------|------------------------|------------------------|

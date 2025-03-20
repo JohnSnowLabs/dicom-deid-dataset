@@ -59,7 +59,7 @@ Databricks:
 | 🐍 **ImageToText (Python)**                               | **0.5**     | **0.3** | **0.4**  |
 | 🔴 **Presidio**                                           | **0.09**    | **0.13** | **0.1**  |
 
-### Time Metrics (GPU)
+### Time Metrics (GPU) - Average Time/File
 
 - Google Colab Notebook utilized a single A100 GPU ( 40 GB ) - 7.62 Credits/hr
 - Databricks Standalone Driver 64 GB Single GPU g4dn.4xLarge[T4] - 2.85 dbu/h
@@ -73,7 +73,7 @@ Databricks:
 | 🐍 **ImageToText (Python)**                                   | **0.31**               | **1.21**     | **0.89**  |
 | 🔴 **Presidio**    | 0.54 | None | None |
 
-### Time Metrics (CPU)
+### Time Metrics (CPU) - Average Time/File
 
 - Google Colab Notebook HIGH RAM 8 Core CPU - 0.18 Credits/hr
 - Databricks Standalone Driver 64 GB [ 16 Cores ] m4.4xlarge - 3 dbu/h

@@ -75,10 +75,10 @@ Databricks:
 
 | **Model**                                              | **Precision** | **Recall** | **F1-Score** |
 |-----------------------------------------------------------|-------------|--------|----------|
-| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)** | **0.8**     | **0.8** | **0.8**  |
-| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **0.9**     | **0.8** | **0.8**  |
-| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)** | **0.7** | **0.4** | **0.5**  |
-| 🐍 **ImageToText (Python)**                               | **0.5**     | **0.3** | **0.4**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)** | **0.845**     | **0.772** | **0.807**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **0.874**     | **0.789** | **0.829**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)** | **0.678** | **0.406** | **0.508**  |
+| 🐍 **ImageToText (Python)**                               | **0.522**     | **0.272** | **0.358**  |
 | 🔴 **Presidio**                                           | **0.09**    | **0.13** | **0.1**  |
 
 ### Time Metrics (GPU) - Average Time/File

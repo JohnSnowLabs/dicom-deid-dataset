@@ -36,25 +36,25 @@ This dataset is intended to support research in medical image de-identification 
 
 ### Subset Dicom 
 
-We wanted to make sure our measurements were as accurate as possible, so we hand-picked a group of DICOM images to work with. We focused on choosing only the best quality images, the ones that really mattered clinically. This way, we avoided any skewed DICOM data. Basically, we wanted to make sure our numbers reflected real-world medical imaging, not something artificial.
+We wanted to ensure our measurements were as accurate as possible, so we hand-picked a group of DICOM images to work with. We focused on choosing only the best quality images, the ones that mattered clinically. This way, we avoided any skewed DICOM data. We wanted to ensure our numbers reflected real-world medical imaging, not something artificial.
 
     [
-     '6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-101.dcm',
-     '6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-098.dcm',
-     '6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-105.dcm',
-     '3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-141.dcm',
-     '339833062_07-05-2001-19638_3001578_000000-60758_1-2.dcm',
-     '6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-19.dcm',
-     '571403367_07-11-2019-DBT_Reconstructed_Volume-37558_DBT_slices-78838_51-01.dcm',
-     '6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-095.dcm',
-     '339833062_07-05-2001-19638_3001578_000000-60758_1-7.dcm',
-     '8155012288_09-08-1999-FORFILE_CT_CHABPEL_-_CD_for_8155012288-44118_1_000000-SCOUT-12438_2-1.dcm',
-     '9189822998_02-15-1989-CT_HIP_WO_CONTRASTBILAT-50838_5865_000000-Surview_Test-43798_1-3.dcm',
-     '6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-107.dcm',
-     '3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-126.dcm',
-     '6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-15.dcm',
-     '6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-17.dcm'
-     ]
+        "292821506_07-13-2013-XR_CHEST_AP_PORTABLE_for_Douglas_Davidson-46198_1001_000000-37718_1-1.dcm",
+        "339833062_07-05-2001-19638_3001578_000000-60758_1-2.dcm",
+        "339833062_07-05-2001-19638_3001578_000000-60758_1-5.dcm",
+        "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-106.dcm",
+        "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-105.dcm",
+        "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-070.dcm",
+        "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-015.dcm",
+        "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-10.dcm",
+        "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-03.dcm",
+        "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-146.dcm",
+        "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-144.dcm",
+        "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-137.dcm",
+        "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-125.dcm",
+        "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-121.dcm",
+        "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-110.dcm"
+    ]
 
 ### Environment
 
@@ -75,11 +75,11 @@ Databricks:
 
 | **Model**                                              | **Precision** | **Recall** | **F1-Score** |
 |-----------------------------------------------------------|-------------|--------|----------|
-| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)** | **0.845**     | **0.772** | **0.807**  |
-| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **0.874**     | **0.789** | **0.829**  |
-| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)** | **0.678** | **0.406** | **0.508**  |
-| 🐍 **ImageToText (Python)**                               | **0.522**     | **0.272** | **0.358**  |
-| 🔴 **Presidio**                                           | **0.09**    | **0.13** | **0.1**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Base (Scala)** | **0.871**     | **0.800** | **0.834**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV2 - Large (Scala)** | **0.892**     | **0.822** | **0.856**  |
+| 🚀 **ImageTextDetector - MemOpt (Scala) + ImageToTextV3 (Scala)** | **0.741** | **0.433** | **0.547**  |
+| 🐍 **ImageToText (Python)**                               | **0.436**     | **0.289** | **0.348**  |
+| 🔴 **Presidio**                                           | **0.07**    | **0.128** | **0.091**  |
 
 ### Time Metrics (GPU) - Average Time/File
 

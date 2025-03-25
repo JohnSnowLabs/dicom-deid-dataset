@@ -1,0 +1,300 @@
+[
+    {
+        "Filename": "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-121.dcm",
+        "Ground Truth": [
+            "nielsen, jimenez and aguilar community hospital",
+            "2023 aug 20",
+            "3209648408",
+            "alden fonceca",
+            "66",
+            "01/02/1957"
+        ],
+        "Predicted PHI": [
+            "66",
+            "01/02/1957",
+            "alden fonceca",
+            "3209648408",
+            "2023 aug 20",
+            "willen, timer"
+        ],
+        "Precision": 0.8333333333333334,
+        "Recall": 0.8333333333333334
+    },
+    {
+        "Filename": "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-125.dcm",
+        "Ground Truth": [
+            "nielsen, jimenez and aguilar community hospital",
+            "2023 oct 16",
+            "3209648408",
+            "wilburn otte",
+            "31",
+            "07/29/1992"
+        ],
+        "Predicted PHI": [
+            "31",
+            "07/29/1992",
+            "wilburn otte",
+            "3209648408",
+            "2023 oct 16",
+            "nielen, jimene"
+        ],
+        "Precision": 0.8333333333333334,
+        "Recall": 0.8333333333333334
+    },
+    {
+        "Filename": "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-137.dcm",
+        "Ground Truth": [
+            "nielsen, jimenez and aguilar community hospital",
+            "2023 nov 07",
+            "3209648408",
+            "ricki matrone",
+            "42",
+            "05/23/1981"
+        ],
+        "Predicted PHI": [
+            "42",
+            "05/23/1981",
+            "ricki matrone",
+            "3209648408",
+            "2023 nov 07",
+            "walen, jimene",
+            "agailar community hospinal"
+        ],
+        "Precision": 0.7142857142857143,
+        "Recall": 0.8333333333333334
+    },
+    {
+        "Filename": "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-144.dcm",
+        "Ground Truth": [
+            "nielsen, jimenez and aguilar community hospital",
+            "2023 oct 23",
+            "3209648408",
+            "rickey solina",
+            "25",
+            "10/18/1998"
+        ],
+        "Predicted PHI": [
+            "25",
+            "10/18/1998",
+            "rickey solina",
+            "3209648408",
+            "2023 oct 23",
+            "welen, timer azu",
+            "adjalar community hospital"
+        ],
+        "Precision": 0.7142857142857143,
+        "Recall": 0.8333333333333334
+    },
+    {
+        "Filename": "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-015.dcm",
+        "Ground Truth": [
+            "coleman-cooper community clinic",
+            "2023 apr 30",
+            "6670427471",
+            "dian greulich",
+            "76",
+            "05/17/1946"
+        ],
+        "Predicted PHI": [
+            "76",
+            "05/17/1946",
+            "dian greulich",
+            "6670427471",
+            "2023 apr 30",
+            "coleman-cooper community clinic"
+        ],
+        "Precision": 1.0,
+        "Recall": 1.0
+    },
+    {
+        "Filename": "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-110.dcm",
+        "Ground Truth": [
+            "nielsen, jimenez and aguilar community hospital",
+            "2023 nov 28",
+            "3209648408",
+            "vina hodan",
+            "37",
+            "07/18/1986"
+        ],
+        "Predicted PHI": [
+            "mastriction",
+            "melen, timera",
+            "37",
+            "07/18/1986",
+            "vina hodan",
+            "3209648408",
+            "2023 nov 28"
+        ],
+        "Precision": 0.7142857142857143,
+        "Recall": 0.8333333333333334
+    },
+    {
+        "Filename": "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-10.dcm",
+        "Ground Truth": [
+            "maynard-clarke medical clinic",
+            "2023 nov 01",
+            "6415974217",
+            "lannie pyron",
+            "54",
+            "06/27/1969"
+        ],
+        "Predicted PHI": [
+            "54",
+            "06/27/1969",
+            "lannie pyron",
+            "6415974217",
+            "2023 nov 01",
+            "maymart-cashier medical cinic"
+        ],
+        "Precision": 0.8333333333333334,
+        "Recall": 0.8333333333333334
+    },
+    {
+        "Filename": "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-105.dcm",
+        "Ground Truth": [
+            "coleman-cooper community clinic",
+            "2023 mar 12",
+            "6670427471",
+            "marianne mordini",
+            "31",
+            "10/04/1991"
+        ],
+        "Predicted PHI": [
+            "31",
+            "10/04/1991",
+            "6670427471",
+            "marianne mordini",
+            "2023 mar 12",
+            "coleman couper community chino"
+        ],
+        "Precision": 0.8333333333333334,
+        "Recall": 0.8333333333333334
+    },
+    {
+        "Filename": "3209648408_09-23-1999-CT_UROGRAM-31798_3_000000-PARENCHYMAL_PHASE_Sep1999-95798_1-146.dcm",
+        "Ground Truth": [
+            "nielsen, jimenez and aguilar community hospital",
+            "2023 nov 28",
+            "3209648408",
+            "al zicherman",
+            "32",
+            "07/15/1991"
+        ],
+        "Predicted PHI": [
+            "32",
+            "07/15/1991",
+            "al zicherman",
+            "3209648408",
+            "2023 nov 28",
+            "welen, jimeriz"
+        ],
+        "Precision": 0.8333333333333334,
+        "Recall": 0.8333333333333334
+    },
+    {
+        "Filename": "339833062_07-05-2001-19638_3001578_000000-60758_1-5.dcm",
+        "Ground Truth": [
+            "mccoy medical clinic",
+            "2023 jul 02",
+            "339833062",
+            "lura scrobola",
+            "30",
+            "10/08/1992"
+        ],
+        "Predicted PHI": [
+            "2023 jul 02",
+            "339833062",
+            "lura scrobola",
+            "10/08/1992"
+        ],
+        "Precision": 1.0,
+        "Recall": 0.6666666666666666
+    },
+    {
+        "Filename": "6415974217_06-09-1988-ABDOMENPELVIS-29078_237_000000-PJN-15958_1-03.dcm",
+        "Ground Truth": [
+            "2023 may 05",
+            "danyel shirilla",
+            "m",
+            "01/17/1948"
+        ],
+        "Predicted PHI": [
+            "01/17/1948",
+            "2023 may 05",
+            "danyel shirilla"
+        ],
+        "Precision": 1.0,
+        "Recall": 0.75
+    },
+    {
+        "Filename": "292821506_07-13-2013-XR_CHEST_AP_PORTABLE_for_Douglas_Davidson-46198_1001_000000-37718_1-1.dcm",
+        "Ground Truth": [
+            "scott community hospital",
+            "2023 feb 11",
+            "292821506",
+            "salley roussos",
+            "26",
+            "04/11/1996"
+        ],
+        "Predicted PHI": [
+            "2023 feb 11",
+            "292821506",
+            "salley rousos",
+            "04/11/1996"
+        ],
+        "Precision": 0.75,
+        "Recall": 0.5
+    },
+    {
+        "Filename": "339833062_07-05-2001-19638_3001578_000000-60758_1-2.dcm",
+        "Ground Truth": [
+            "mccoy medical clinic",
+            "2023 aug 28",
+            "339833062",
+            "carina brost",
+            "32",
+            "03/02/1991"
+        ],
+        "Predicted PHI": [
+            "mccoy medical clinic",
+            "2023 aug 28",
+            "339833062",
+            "03/02/1991"
+        ],
+        "Precision": 1.0,
+        "Recall": 0.6666666666666666
+    },
+    {
+        "Filename": "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-106.dcm",
+        "Ground Truth": [
+            "2023 dec 03",
+            "vanda patzer",
+            "f",
+            "12/05/1983"
+        ],
+        "Predicted PHI": [
+            "12/05/1983",
+            "2023 dec 03",
+            "vanda patzer"
+        ],
+        "Precision": 1.0,
+        "Recall": 0.75
+    },
+    {
+        "Filename": "6670427471_05-26-2000-FORFILE_CT_ABD_ANDOR_PEL_-_CD-25398_5_000000-NEPHRO__4_0__B40f__M0_4-18678_1-070.dcm",
+        "Ground Truth": [
+            "2023 oct 16",
+            "vania ansara",
+            "m",
+            "01/29/1991"
+        ],
+        "Predicted PHI": [
+            "2023 oct 16",
+            "vania ansara",
+            "m",
+            "01/29/1991"
+        ],
+        "Precision": 1.0,
+        "Recall": 1.0
+    }
+]

@@ -11,7 +11,7 @@ The goal is to compare the efficacy of two industry-leading platforms in:
 ### Libraries & Platforms
 * **Spark-NLP & Healthcare-NLP**: For Clinical NER and PII detection.
 * **Visual-NLP**: For DICOM parsing and pixel-level redaction.
-* **Data Science Stack**: `scikit-learn`, `pandas`, `openpyxl`.
+* **Packages**: `scikit-learn`, `pandas`, `openpyxl`.
 
 ### Datasets
 * **MIDI-B Validation Dataset**: (https://www.cancerimagingarchive.net/collection/midi-b-test-midi-b-validation/)
@@ -22,7 +22,7 @@ The goal is to compare the efficacy of two industry-leading platforms in:
 
 | File | Description |
 | :--- | :--- |
-| **`Visual_NLP_Pixels_Comparison.ipynb`** | The primary notebook used to define the pipeline, execute the de-identification workflows, and generate comparative metrics. |
+| **`Visual_NLP_Pixels_Comparison.ipynb`** | The primary notebook used to define the post-MIDI-B Experimentation pipeline, execute the de-identification workflows, and generate comparative metrics. |
 | **`jsl_vs_db_midib_pipeline_results.xlsx`** | **Final Results.** Metrics generated using the curated MIDI-B pipeline, optimised for high-precision clinical de-identification. |
 | **`jsl_vs_db_ner_pipeline_results.xlsx`** | **Experimental Results.** Baseline data generated using a standard NER pipeline during the initial pre-experimentation phase. |
 
@@ -43,11 +43,6 @@ The results demonstrate a clear trade-off between precision and sensitivity acro
 * **Visual NLP (Post-MIDI-B)**: Following **post-experimentation refinement**, we matched the 1.0 precision of the Pixels platform but reached a recall of 0.7143. 
 
 **Conclusion**: The curated Visual NLP pipeline delivers a **2.5x improvement in recall** over the Pixels platform, ensuring clinical-grade accuracy without the risk of false positives.
-
-
-### Scalability & Flexibility
-
-Visual NLP's performance is driven by its deep integration with the John Snow Labs ecosystem:
 
 * **10,000+ Pretrained Models**: Access a massive library of specialised models. Changing the underlying NER models can directly effect and optimize the final de-identification results based on the specific modality or use case.
 * **Global Support**: The platform works across multiple languages and is designed for high flexibility in deployment.

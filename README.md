@@ -1,5 +1,7 @@
 # Visual NLP DICOM Dataset and Metrics
 
+![Sample DICOM](resources/pixel_metadata_sample.png)
+
 ## Presidio — Comparison of Visual NLP vs Presidio
 
 - We use the **Pre MIDI-Pixel** Visual NLP de-identification pixels pipeline.
@@ -12,6 +14,16 @@
 - The **MIDI-B** dataset is used for this experiment.
 - Notebooks are present for the **Visual NLP** solution.
 
+## Flow Diagram
+
+### Dicom Pixel / Complete Flow Diagram
+
+![De-Identification Flow Diagram](resources/fig_pipeline_overview.png)
+
+### DICOM Metadata De-Identification Flow Diagram
+
+![Metadata Flow Diagram](resources/fig_metadata_workflow.png)
+
 ## Results
 
 ### Pixel De-Identification
@@ -23,12 +35,6 @@
 ![Metadata De-Identification Result](resources/fig_ner_text_before_after.png)
 
 ### DICOM De-Identification Flow Diagram
-
-![De-Identification Flow Diagram](resources/fig_pipeline_overview.png)
-
-### DICOM Metadata De-Identification Flow Diagram
-
-![Metadata Flow Diagram](resources/fig_metadata_workflow.png)
 
 ## Speed Benchmarks
 

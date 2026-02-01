@@ -9,7 +9,7 @@ The goal is to compare the efficacy of two industry-leading platforms in:
 ## Requirements
 
 ### Libraries & Platforms
-* **Spark-NLP & Healthcare-NLP**: For Clinical NER and PII detection.
+* **Spark-NLP & Healthcare-NLP**: For Clinical NER and PHI detection and DeIdentification.
 * **Visual-NLP**: For DICOM parsing and pixel-level redaction.
 * **Packages**: `scikit-learn`, `pandas`, `openpyxl`.
 

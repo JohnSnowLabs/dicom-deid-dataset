@@ -4,8 +4,7 @@ This repository contains the benchmarking suite and implementation code for eval
 
 ## Project Overview
 The goal is to compare the efficacy of two industry-leading platforms in:
-1.  **Metadata Scrubbing**: Removing PII from DICOM headers.
-2.  **Pixel Redaction**: Identifying and masking burnt-in text (PHI) within the image frames.
+1.  **Pixel Redaction**: Identifying and masking burnt-in text (PHI) within the image frames.
 
 ## Requirements
 

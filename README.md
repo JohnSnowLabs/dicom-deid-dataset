@@ -80,4 +80,4 @@ This repository contains DICOM de-identification datasets, notebooks, metrics, a
 | [DICOM De-identification Blogpost](https://medium.com/john-snow-labs/de-identifying-dicom-files-a-step-by-step-guide-with-john-snow-labs-visual-nlp-2c21b60f92a8) | Step-by-step Visual NLP DICOM de-identification walkthrough. |
 | [Metadata De-identification](https://github.com/JohnSnowLabs/visual-nlp-workshop/blob/master/jupyter/Dicom/strategy_actions.md) | Visual NLP guide to metadata de-identification. |
 | [MIDI/Pseudo-PHI DICOM Paper](https://www.nature.com/articles/s41597-021-00967-y) | Scientific Data paper describing a DICOM dataset for evaluating medical image de-identification. |
-| [Visual NLP Skill](https://www.johnsnowlabs.com/visual-nlp/) | John Snow Labs Visual NLP de-identification skill for your LLM. |
+| [Visual NLP Skill](https://github.com/JohnSnowLabs/visual-nlp-workshop/tree/master/jupyter/skill) | John Snow Labs Visual NLP de-identification skill for your LLM. |

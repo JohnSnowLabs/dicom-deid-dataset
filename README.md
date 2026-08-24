@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains DICOM de-identification datasets, notebooks, metrics, and visual results for evaluating John Snow Labs Visual NLP across two comparison workflows.
+This repository contains DICOM de-identification datasets, notebooks, metrics, and visual results for evaluating John Snow Labs Visual NLP across comparison workflows and synthetic dataset workflows.
 
 ## Repository Structure
 
@@ -34,13 +34,21 @@ This repository contains DICOM de-identification datasets, notebooks, metrics, a
 
 ## Sample Results
 
-### Pixel De-Identification
+### Blanket Pixel De-Identification
 
-![Pixel De-Identification Result 3 Samples](resources/fig_before_after_3.png)
+![Blanket Pixel De-Identification](resources/blanket_pixel_deid.png)
+
+### PHI Pixel De-Identification
+
+![PHI Pixel De-Identification](resources/pixel_phi_deid.png)
+
+### Encapsulated PDF De-Identification
+
+![Encapsulated PDF De-Identification](resources/encapsulated_pdf_deid.png)
 
 ### Metadata De-Identification
 
-![Metadata De-Identification Result](resources/fig_ner_text_before_after.png)
+![Metadata De-Identification Result](resources/Free_text_deid.png)
 
 ## Speed Benchmark
 
@@ -67,5 +75,10 @@ This repository contains DICOM de-identification datasets, notebooks, metrics, a
 
 ## References
 
-- **Medium Article:** [De-Identifying DICOM Files: A Step-by-Step Guide with John Snow Labs Visual NLP](https://medium.com/john-snow-labs/de-identifying-dicom-files-a-step-by-step-guide-with-john-snow-labs-visual-nlp-2c21b60f92a8)
-- **Visual NLP Workshop DICOM Notebooks:** [GitHub - visual-nlp-workshop / jupyter / DICOM](https://github.com/JohnSnowLabs/visual-nlp-workshop/tree/master/jupyter/Dicom)
+| Resource | Description |
+|---|---|
+| [Visual NLP DICOM Workshop](https://github.com/JohnSnowLabs/visual-nlp-workshop/tree/master/jupyter/Dicom) | Visual NLP DICOM notebooks and workshop examples. |
+| [DICOM De-identification Blogpost](https://medium.com/john-snow-labs/de-identifying-dicom-files-a-step-by-step-guide-with-john-snow-labs-visual-nlp-2c21b60f92a8) | Step-by-step Visual NLP DICOM de-identification walkthrough. |
+| [Metadata De-identification](https://github.com/JohnSnowLabs/visual-nlp-workshop/blob/master/jupyter/Dicom/strategy_actions.md) | Visual NLP guide to metadata de-identification. |
+| [MIDI/Pseudo-PHI DICOM Paper](https://www.nature.com/articles/s41597-021-00967-y) | Scientific Data paper describing a DICOM dataset for evaluating medical image de-identification. |
+| [Visual NLP Skill](https://www.johnsnowlabs.com/visual-nlp/) | John Snow Labs Visual NLP de-identification skill for your LLM. |

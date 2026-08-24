@@ -5,8 +5,11 @@ This directory contains a synthetic DICOM de-identification dataset with pixel P
 ## Contents
 
 - [Dataset Summary](#dataset-summary)
+- [Installation and Download](#installation-and-download)
+- [Downloaded Data Structure](#downloaded-data-structure)
 - [Files](#files)
 - [Notebooks](#notebooks)
+- [Results](#results)
 - [Metadata De-identification Strategy](#metadata-de-identification-strategy)
 - [Ground Truth Files](#ground-truth-files)
 
@@ -20,6 +23,43 @@ This directory contains a synthetic DICOM de-identification dataset with pixel P
 | De-identification notebooks | 2 | Visual NLP workflows for pixel and PDF-encapsulated DICOM de-identification. |
 | Metadata strategy rows | 24 | DICOM tag-level actions used for metadata de-identification. |
 
+## Installation and Download
+
+Install the Hugging Face Hub client:
+
+```bash
+pip install -U huggingface_hub
+```
+
+Download the dataset into a local `data/` directory:
+
+```python
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="nk1221/Synthetic_Dicom_V2",
+    repo_type="dataset",
+    local_dir="./data"
+)
+```
+
+Run the download command from this directory if you want the notebooks to use `Synthetic_V2/data/` as the local dataset path.
+
+## Downloaded Data Structure
+
+The downloaded dataset is organized by original inputs and de-identified outputs, with separate folders for pixel DICOM data and PDF-encapsulated DICOM data.
+
+| Path | Description |
+|---|---|
+| `data/original/dicom/pixel/` | Original DICOM files with pixel PHI. |
+| `data/original/dicom/pdf/` | Original PDF-encapsulated DICOM files. |
+| `data/original/image/pixel/` | Rendered images for pixel DICOM files. |
+| `data/original/image/pdf/` | Rendered images for PDF-encapsulated DICOM files. |
+| `data/deid/dicom/pixel/` | De-identified pixel DICOM outputs. |
+| `data/deid/dicom/pdf/` | De-identified PDF-encapsulated DICOM outputs, when generated. |
+| `data/deid/image/pixel/` | Rendered de-identified pixel outputs. |
+| `data/deid/image/pdf/` | Rendered de-identified PDF outputs. |
+
 ## Files
 
 | Path | Description |
@@ -30,6 +70,27 @@ This directory contains a synthetic DICOM de-identification dataset with pixel P
 | `Visual_NLP_Encapsulated_PDF_DeIdentification.ipynb` | Visual NLP notebook for PDF-encapsulated DICOM de-identification. |
 | `dicom_metadata_deidentification_strategy.csv` | DICOM metadata de-identification strategy used by the notebooks. |
 
+## Notebooks
+
+The notebooks define the Visual NLP and Healthcare NLP stages required to ingest synthetic DICOM files, detect PHI, apply metadata and pixel/document de-identification, and generate de-identified outputs.
+
+| Notebook | Workflow |
+|---|---|
+| `Visual_NLP_Pixel_DeIdentification.ipynb` | Pixel PHI de-identification for synthetic DICOM images. |
+| `Visual_NLP_Encapsulated_PDF_DeIdentification.ipynb` | PHI de-identification for PDF-encapsulated synthetic DICOM files. |
+
+## Results
+
+The notebooks validate de-identified outputs by running OCR and metadata extraction on the generated DICOM files, then comparing the extracted PHI against the ground truth files.
+
+| Notebook | Files Evaluated | Metadata Passed | Metadata Failed | PHI Passed | PHI Failed |
+|---|---:|---:|---:|---:|---:|
+| `Visual_NLP_Pixel_DeIdentification.ipynb` | 40 | 1,040 | 0 | 120 | 0 |
+| `Visual_NLP_Encapsulated_PDF_DeIdentification.ipynb` | 10 | 280 | 0 | 114 | 14 |
+
+For the pixel DICOM workflow, all metadata and pixel PHI checks passed in the notebook output. For the PDF-encapsulated workflow, all metadata checks passed, with 114 document PHI checks passing and 14 remaining failures.
+
+## Ground Truth Files
 
 ### Image_Ground_Truth.json
 

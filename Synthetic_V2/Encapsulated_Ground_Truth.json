@@ -1,0 +1,3934 @@
+{
+  "dicom_files": [
+    {
+      "file": "Synthetic_Pdf_PDF001.dcm",
+      "pdf_file": "PDF001_lab_result.pdf",
+      "encapsulated": true,
+      "document_type": "lab_result",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Bennett^Maya",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Bennett^Maya"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7340961",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7340961"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19821107",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19821107"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "F",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "418 Laurel Ridge Dr, Madison, WI 53705",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "418 Laurel Ridge Dr, Madison, WI 53705"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-018-7426",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-018-7426"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260203-PDF001",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260203-PDF001"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260203",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260203"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "081638",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "081638"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Northbridge Regional Medical Center",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Northbridge Regional Medical Center"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Sato^Daniel",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Sato^Daniel"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260203.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260203.1"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260203.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260203.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260203.1.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260203.1.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Comprehensive Lab Result for Bennett^Maya accession ACC-20260203-PDF001",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Bennett^Maya",
+            "ACC-20260203-PDF001"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7340961",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7340961"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Bennett^Maya requested PDF results by phone at 555-018-7426",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Bennett^Maya",
+            "555-018-7426"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Northbridge Regional Medical Center for Bennett^Maya",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Northbridge Regional Medical Center",
+            "Bennett^Maya"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Comprehensive Lab Result for Bennett^Maya",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Bennett^Maya"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Bennett^Maya contact 555-018-7426 email maya.bennett@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Bennett^Maya",
+                    "555-018-7426",
+                    "maya.bennett@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Bennett^Maya",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Bennett^Maya"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260205",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260205"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "081638",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "081638"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1770086798,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1770086798"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Bennett^Maya",
+            "555-018-7426",
+            "maya.bennett@example.test",
+            "20260205",
+            "081638",
+            "1770086798"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Bennett^Maya",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7340961",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19821107",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260203-PDF001",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Sato^Daniel",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "418 Laurel Ridge Dr, Madison, WI 53705",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-018-7426",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "maya.bennett@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260203",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260204",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260205",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Patel^Rina",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Synthetic_Pdf_PDF002.dcm",
+      "pdf_file": "PDF002_lab_result.pdf",
+      "encapsulated": true,
+      "document_type": "lab_result",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Whitaker^Elena",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Whitaker^Elena"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7362898",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7362898"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19790622",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19790622"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "F",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "73 Harbor View Ln, Portland, ME 04101",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "73 Harbor View Ln, Portland, ME 04101"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-013-6084",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-013-6084"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260216-PDF002",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260216-PDF002"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260216",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260216"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "092147",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "092147"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Harborview Community Hospital",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Harborview Community Hospital"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Chen^Avery",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Chen^Avery"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260216.2",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260216.2"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260216.2.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260216.2.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260216.2.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260216.2.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Comprehensive Lab Result for Whitaker^Elena accession ACC-20260216-PDF002",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Whitaker^Elena",
+            "ACC-20260216-PDF002"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7362898",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7362898"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Whitaker^Elena requested PDF results by phone at 555-013-6084",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Whitaker^Elena",
+            "555-013-6084"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Harborview Community Hospital for Whitaker^Elena",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Harborview Community Hospital",
+            "Whitaker^Elena"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Comprehensive Lab Result for Whitaker^Elena",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Whitaker^Elena"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Whitaker^Elena contact 555-013-6084 email elena.whitaker@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Whitaker^Elena",
+                    "555-013-6084",
+                    "elena.whitaker@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Whitaker^Elena",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Whitaker^Elena"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260218",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260218"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "092147",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "092147"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1771213907,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1771213907"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Whitaker^Elena",
+            "555-013-6084",
+            "elena.whitaker@example.test",
+            "20260218",
+            "092147",
+            "1771213907"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Whitaker^Elena",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7362898",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19790622",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260216-PDF002",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Chen^Avery",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "73 Harbor View Ln, Portland, ME 04101",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-013-6084",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "elena.whitaker@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260216",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260217",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260218",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Helen Morris",
+            "source": "pdf_only"
+          },
+          {
+            "type": "clia_id",
+            "value": "01D2345678",
+            "source": "pdf_only"
+          },
+          {
+            "type": "npi",
+            "value": "1234567893",
+            "source": "pdf_only"
+          },
+          {
+            "type": "license",
+            "value": "ME12345",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Synthetic_Pdf_PDF003.dcm",
+      "pdf_file": "PDF003_pathology_report.pdf",
+      "encapsulated": true,
+      "document_type": "pathology_report",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Coleman^Rafael",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Coleman^Rafael"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7384835",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7384835"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19680415",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19680415"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "M",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "902 Briar Creek Ave, Durham, NC 27705",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "902 Briar Creek Ave, Durham, NC 27705"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-016-4390",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-016-4390"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260301-PDF003",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260301-PDF003"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260301",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260301"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "102656",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "102656"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Pinecrest Medical Center",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Pinecrest Medical Center"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Patel^Mira",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Patel^Mira"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260301.3",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260301.3"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260301.3.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260301.3.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260301.3.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260301.3.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Pathology Report for Coleman^Rafael accession ACC-20260301-PDF003",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Coleman^Rafael",
+            "ACC-20260301-PDF003"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7384835",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7384835"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Coleman^Rafael requested PDF results by phone at 555-016-4390",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Coleman^Rafael",
+            "555-016-4390"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Pinecrest Medical Center for Coleman^Rafael",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Pinecrest Medical Center",
+            "Coleman^Rafael"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Pathology Report for Coleman^Rafael",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Coleman^Rafael"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Coleman^Rafael contact 555-016-4390 email rafael.coleman@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Coleman^Rafael",
+                    "555-016-4390",
+                    "rafael.coleman@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Coleman^Rafael",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Coleman^Rafael"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260303",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260303"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "102656",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "102656"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1772341016,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1772341016"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Coleman^Rafael",
+            "555-016-4390",
+            "rafael.coleman@example.test",
+            "20260303",
+            "102656",
+            "1772341016"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Coleman Rafael",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7384835",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19680415",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260301-PDF003",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Patel Mira",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "902 Briar Creek Ave, Durham, NC 27705",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-016-4390",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "rafael.coleman@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260301",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260302",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260303",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Shah Kunal",
+            "source": "pdf_only"
+          },
+          {
+            "type": "license",
+            "value": "NC-12345",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Synthetic_Pdf_PDF004.dcm",
+      "pdf_file": "PDF004_lab_result.pdf",
+      "encapsulated": true,
+      "document_type": "lab_result",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Nguyen^Linh",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Nguyen^Linh"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7406772",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7406772"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19910304",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19910304"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "F",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "55 Orchard Park Dr, Austin, TX 78731",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "55 Orchard Park Dr, Austin, TX 78731"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-019-2285",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-019-2285"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260314-PDF004",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260314-PDF004"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260314",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260314"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "113105",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "113105"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Cedar Valley Imaging Center",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Cedar Valley Imaging Center"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Reed^Samuel",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Reed^Samuel"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260314.4",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260314.4"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260314.4.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260314.4.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260314.4.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260314.4.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Comprehensive Lab Result for Nguyen^Linh accession ACC-20260314-PDF004",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Nguyen^Linh",
+            "ACC-20260314-PDF004"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7406772",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7406772"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Nguyen^Linh requested PDF results by phone at 555-019-2285",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Nguyen^Linh",
+            "555-019-2285"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Cedar Valley Imaging Center for Nguyen^Linh",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Cedar Valley Imaging Center",
+            "Nguyen^Linh"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Comprehensive Lab Result for Nguyen^Linh",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Nguyen^Linh"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Nguyen^Linh contact 555-019-2285 email linh.nguyen@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Nguyen^Linh",
+                    "555-019-2285",
+                    "linh.nguyen@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Nguyen^Linh",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Nguyen^Linh"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260316",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260316"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "113105",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "113105"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1773468065,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1773468065"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Nguyen^Linh",
+            "555-019-2285",
+            "linh.nguyen@example.test",
+            "20260316",
+            "113105",
+            "1773468065"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Nguyen Linh",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7406772",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19910304",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260314-PDF004",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Reed Samuel",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "55 Orchard Park Dr, Austin, TX 78731",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-019-2285",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "linh.nguyen@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260314",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260315",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260316",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Bryant Amelia",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Synthetic_Pdf_PDF005.dcm",
+      "pdf_file": "PDF005_encounter_summary.pdf",
+      "encapsulated": true,
+      "document_type": "encounter_summary",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Foster^Nolan",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Foster^Nolan"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7428709",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7428709"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19571230",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19571230"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "M",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "1446 Maple Hollow Rd, Boise, ID 83702",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1446 Maple Hollow Rd, Boise, ID 83702"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-015-7712",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-015-7712"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260327-PDF005",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260327-PDF005"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260327",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260327"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "123614",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "123614"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Summit Plains Hospital",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Summit Plains Hospital"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Okafor^Ife",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Okafor^Ife"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260327.5",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260327.5"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260327.5.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260327.5.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260327.5.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260327.5.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Clinical Encounter Summary for Foster^Nolan accession ACC-20260327-PDF005",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Foster^Nolan",
+            "ACC-20260327-PDF005"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7428709",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7428709"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Foster^Nolan requested PDF results by phone at 555-015-7712",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Foster^Nolan",
+            "555-015-7712"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Summit Plains Hospital for Foster^Nolan",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Summit Plains Hospital",
+            "Foster^Nolan"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Clinical Encounter Summary for Foster^Nolan",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Foster^Nolan"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Foster^Nolan contact 555-015-7712 email nolan.foster@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Foster^Nolan",
+                    "555-015-7712",
+                    "nolan.foster@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Foster^Nolan",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Foster^Nolan"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260329",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260329"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "123614",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "123614"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1774595174,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1774595174"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Foster^Nolan",
+            "555-015-7712",
+            "nolan.foster@example.test",
+            "20260329",
+            "123614",
+            "1774595174"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Foster Nolan",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7428709",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19571230",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260327-PDF005",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Okafor Ife",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "1446 Maple Hollow Rd, Boise, ID 83702",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-015-7712",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "nolan.foster@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260327",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260328",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260329",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Andrews Peter",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Synthetic_Pdf_PDF006.dcm",
+      "pdf_file": "PDF006_lab_result.pdf",
+      "encapsulated": true,
+      "document_type": "lab_result",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Ramirez^Sofia",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Ramirez^Sofia"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7450646",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7450646"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19860519",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19860519"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "F",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "28 Winding Brook Ct, Phoenix, AZ 85016",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "28 Winding Brook Ct, Phoenix, AZ 85016"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-011-9367",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-011-9367"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260409-PDF006",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260409-PDF006"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260409",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260409"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "134123",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "134123"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Mesa Vista Medical Center",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Mesa Vista Medical Center"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Morgan^Claire",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Morgan^Claire"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260409.6",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260409.6"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260409.6.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260409.6.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260409.6.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260409.6.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Comprehensive Lab Result for Ramirez^Sofia accession ACC-20260409-PDF006",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Ramirez^Sofia",
+            "ACC-20260409-PDF006"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7450646",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7450646"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Ramirez^Sofia requested PDF results by phone at 555-011-9367",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Ramirez^Sofia",
+            "555-011-9367"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Mesa Vista Medical Center for Ramirez^Sofia",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Mesa Vista Medical Center",
+            "Ramirez^Sofia"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Comprehensive Lab Result for Ramirez^Sofia",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Ramirez^Sofia"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Ramirez^Sofia contact 555-011-9367 email sofia.ramirez@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Ramirez^Sofia",
+                    "555-011-9367",
+                    "sofia.ramirez@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Ramirez^Sofia",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Ramirez^Sofia"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260411",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260411"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "134123",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "134123"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1775722283,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1775722283"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Ramirez^Sofia",
+            "555-011-9367",
+            "sofia.ramirez@example.test",
+            "20260411",
+            "134123",
+            "1775722283"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Ramirez Sofia",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7450646",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19860519",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260409-PDF006",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Morgan Claire",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "28 Winding Brook Ct, Phoenix, AZ 85016",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-011-9367",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "sofia.ramirez@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260409",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260410",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260411",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Vega Isabel",
+            "source": "pdf_only"
+          },
+          {
+            "type": "license",
+            "value": "AZ 12345",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Synthetic_Pdf_PDF007.dcm",
+      "pdf_file": "PDF007_billing_summary.pdf",
+      "encapsulated": true,
+      "document_type": "billing_summary",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Hayes^Jonah",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Hayes^Jonah"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7472583",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7472583"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19741102",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19741102"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "M",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "619 Cedar Lake Blvd, Minneapolis, MN 55416",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "619 Cedar Lake Blvd, Minneapolis, MN 55416"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-012-4839",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-012-4839"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260422-PDF007",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260422-PDF007"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260422",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260422"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "144632",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "144632"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Lakefield Regional Hospital",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Lakefield Regional Hospital"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Nakamura^Kenji",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Nakamura^Kenji"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260422.7",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260422.7"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260422.7.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260422.7.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260422.7.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260422.7.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Billing Encounter Summary for Hayes^Jonah accession ACC-20260422-PDF007",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Hayes^Jonah",
+            "ACC-20260422-PDF007"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7472583",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7472583"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Hayes^Jonah requested PDF results by phone at 555-012-4839",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Hayes^Jonah",
+            "555-012-4839"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Lakefield Regional Hospital for Hayes^Jonah",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Lakefield Regional Hospital",
+            "Hayes^Jonah"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Billing Encounter Summary for Hayes^Jonah",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Hayes^Jonah"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Hayes^Jonah contact 555-012-4839 email jonah.hayes@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Hayes^Jonah",
+                    "555-012-4839",
+                    "jonah.hayes@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Hayes^Jonah",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Hayes^Jonah"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260424",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260424"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "144632",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "144632"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1776849392,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1776849392"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Hayes^Jonah",
+            "555-012-4839",
+            "jonah.hayes@example.test",
+            "20260424",
+            "144632",
+            "1776849392"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Hayes Jonah",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7472583",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19741102",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260422-PDF007",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Nakamura Kenji",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "619 Cedar Lake Blvd, Minneapolis, MN 55416",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-012-4839",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "jonah.hayes@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260422",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260423",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260424",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Silva Marcos",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Synthetic_Pdf_PDF008.dcm",
+      "pdf_file": "PDF008_pathology_report.pdf",
+      "encapsulated": true,
+      "document_type": "pathology_report",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Shah^Priya",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Shah^Priya"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7494520",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7494520"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19950827",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19950827"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "F",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "311 Oak Terrace Way, Raleigh, NC 27608",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "311 Oak Terrace Way, Raleigh, NC 27608"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-017-5901",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-017-5901"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260505-PDF008",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260505-PDF008"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260505",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260505"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "155141",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "155141"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Oak Terrace Diagnostic Center",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Oak Terrace Diagnostic Center"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Allen^Grace",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Allen^Grace"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260505.8",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260505.8"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260505.8.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260505.8.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260505.8.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260505.8.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Pathology Report for Shah^Priya accession ACC-20260505-PDF008",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Shah^Priya",
+            "ACC-20260505-PDF008"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7494520",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7494520"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Shah^Priya requested PDF results by phone at 555-017-5901",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Shah^Priya",
+            "555-017-5901"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Oak Terrace Diagnostic Center for Shah^Priya",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Oak Terrace Diagnostic Center",
+            "Shah^Priya"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Pathology Report for Shah^Priya",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Shah^Priya"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Shah^Priya contact 555-017-5901 email priya.shah@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Shah^Priya",
+                    "555-017-5901",
+                    "priya.shah@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Shah^Priya",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Shah^Priya"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260507",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260507"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "155141",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "155141"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1777976501,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1777976501"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Shah^Priya",
+            "555-017-5901",
+            "priya.shah@example.test",
+            "20260507",
+            "155141",
+            "1777976501"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Shah Priya",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7494520",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19950827",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260505-PDF008",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Allen Grace",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "311 Oak Terrace Way, Raleigh, NC 27608",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-017-5901",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "priya.shah@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260505",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260506",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260507",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Kapoor Meera",
+            "source": "pdf_only"
+          },
+          {
+            "type": "license",
+            "value": "NC123456",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Synthetic_Pdf_PDF009.dcm",
+      "pdf_file": "PDF009_lab_result.pdf",
+      "encapsulated": true,
+      "document_type": "lab_result",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Miller^Evan",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Miller^Evan"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7516457",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7516457"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19611208",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19611208"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "M",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "8706 Stonebridge Cir, Denver, CO 80220",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "8706 Stonebridge Cir, Denver, CO 80220"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-014-8506",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-014-8506"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260518-PDF009",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260518-PDF009"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260518",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260518"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "165650",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "165650"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Rocky Glen Medical Center",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Rocky Glen Medical Center"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Lopez^Mateo",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Lopez^Mateo"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260518.9",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260518.9"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260518.9.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260518.9.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260518.9.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260518.9.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Comprehensive Lab Result for Miller^Evan accession ACC-20260518-PDF009",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Miller^Evan",
+            "ACC-20260518-PDF009"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7516457",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7516457"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Miller^Evan requested PDF results by phone at 555-014-8506",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Miller^Evan",
+            "555-014-8506"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Rocky Glen Medical Center for Miller^Evan",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Rocky Glen Medical Center",
+            "Miller^Evan"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Comprehensive Lab Result for Miller^Evan",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Miller^Evan"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Miller^Evan contact 555-014-8506 email evan.miller@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Miller^Evan",
+                    "555-014-8506",
+                    "evan.miller@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Miller^Evan",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Miller^Evan"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260520",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260520"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "165650",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "165650"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1779103610,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1779103610"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Miller^Evan",
+            "555-014-8506",
+            "evan.miller@example.test",
+            "20260520",
+            "165650",
+            "1779103610"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Miller Evan",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7516457",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19611208",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260518-PDF009",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Lopez Mateo",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "8706 Stonebridge Cir, Denver, CO 80220",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-014-8506",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "evan.miller@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260518",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260519",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260520",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Ng Darren",
+            "source": "pdf_only"
+          },
+          {
+            "type": "signed_date",
+            "value": "20260520",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Synthetic_Pdf_PDF010.dcm",
+      "pdf_file": "PDF010_encounter_summary.pdf",
+      "encapsulated": true,
+      "document_type": "encounter_summary",
+      "metadata": [
+        {
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "name": "PatientName",
+          "value": "Kowalski^Anika",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Kowalski^Anika"
+          ]
+        },
+        {
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "name": "PatientID",
+          "value": "7538394",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7538394"
+          ]
+        },
+        {
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "name": "PatientBirthDate",
+          "value": "19890316",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "19890316"
+          ]
+        },
+        {
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "name": "PatientSex",
+          "value": "F",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0010,1040)",
+          "vr": "LO",
+          "name": "PatientAddress",
+          "value": "246 Meadow Ridge Pl, Columbus, OH 43221",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "246 Meadow Ridge Pl, Columbus, OH 43221"
+          ]
+        },
+        {
+          "tag": "(0010,2154)",
+          "vr": "SH",
+          "name": "PatientTelephoneNumbers",
+          "value": "555-018-2047",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "555-018-2047"
+          ]
+        },
+        {
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "name": "AccessionNumber",
+          "value": "ACC-20260531-PDF010",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "ACC-20260531-PDF010"
+          ]
+        },
+        {
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "name": "StudyDate",
+          "value": "20260531",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "20260531"
+          ]
+        },
+        {
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "name": "StudyTime",
+          "value": "170159",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "170159"
+          ]
+        },
+        {
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "name": "Modality",
+          "value": "DOC",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "name": "InstitutionName",
+          "value": "Meadowbrook Imaging Institute",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Meadowbrook Imaging Institute"
+          ]
+        },
+        {
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "name": "ReferringPhysicianName",
+          "value": "Brooks^Talia",
+          "contains_phi": true,
+          "phi_importance": "medium",
+          "phi": [
+            "Brooks^Talia"
+          ]
+        },
+        {
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "name": "StudyInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260531.10",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260531.10"
+          ]
+        },
+        {
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "name": "SeriesInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260531.10.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260531.10.1"
+          ]
+        },
+        {
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "name": "SOPInstanceUID",
+          "value": "1.2.826.0.1.3680043.10.54321.104.20260531.10.1.1",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "1.2.826.0.1.3680043.10.54321.104.20260531.10.1.1"
+          ]
+        },
+        {
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "name": "StudyDescription",
+          "value": "Clinical Encounter Summary for Kowalski^Anika accession ACC-20260531-PDF010",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Kowalski^Anika",
+            "ACC-20260531-PDF010"
+          ]
+        },
+        {
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "name": "SeriesDescription",
+          "value": "Encapsulated PDF report for 7538394",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "7538394"
+          ]
+        },
+        {
+          "tag": "(0010,4000)",
+          "vr": "LT",
+          "name": "PatientComments",
+          "value": "Patient Kowalski^Anika requested PDF results by phone at 555-018-2047",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Kowalski^Anika",
+            "555-018-2047"
+          ]
+        },
+        {
+          "tag": "(0020,4000)",
+          "vr": "LT",
+          "name": "ImageComments",
+          "value": "PDF document from Meadowbrook Imaging Institute for Kowalski^Anika",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Meadowbrook Imaging Institute",
+            "Kowalski^Anika"
+          ]
+        },
+        {
+          "tag": "(0042,0010)",
+          "vr": "ST",
+          "name": "DocumentTitle",
+          "value": "Clinical Encounter Summary for Kowalski^Anika",
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Kowalski^Anika"
+          ]
+        },
+        {
+          "tag": "(0042,0012)",
+          "vr": "LO",
+          "name": "MIMETypeOfEncapsulatedDocument",
+          "value": "application/pdf",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,0010)",
+          "vr": "LO",
+          "name": "PrivateCreator",
+          "value": "SYNTH_PRIVATE_CREATOR",
+          "contains_phi": false,
+          "phi_importance": "none",
+          "phi": []
+        },
+        {
+          "tag": "(7777,1001)",
+          "vr": "SQ",
+          "name": "SyntheticPrivatePHISequence",
+          "value": [
+            {
+              "metadata": [
+                {
+                  "tag": "(7777,1002)",
+                  "vr": "LT",
+                  "name": "PrivateFreeText",
+                  "value": "Private document note Kowalski^Anika contact 555-018-2047 email anika.kowalski@example.test",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Kowalski^Anika",
+                    "555-018-2047",
+                    "anika.kowalski@example.test"
+                  ]
+                },
+                {
+                  "tag": "(7777,1003)",
+                  "vr": "PN",
+                  "name": "PrivatePersonName",
+                  "value": "Kowalski^Anika",
+                  "contains_phi": true,
+                  "phi_importance": "high",
+                  "phi": [
+                    "Kowalski^Anika"
+                  ]
+                },
+                {
+                  "tag": "(7777,1004)",
+                  "vr": "DA",
+                  "name": "PrivateDate",
+                  "value": "20260602",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "20260602"
+                  ]
+                },
+                {
+                  "tag": "(7777,1005)",
+                  "vr": "TM",
+                  "name": "PrivateTime",
+                  "value": "170159",
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "170159"
+                  ]
+                },
+                {
+                  "tag": "(7777,1006)",
+                  "vr": "UL",
+                  "name": "PrivateUnixTimestamp",
+                  "value": 1780227119,
+                  "contains_phi": true,
+                  "phi_importance": "medium",
+                  "phi": [
+                    "1780227119"
+                  ]
+                }
+              ]
+            }
+          ],
+          "contains_phi": true,
+          "phi_importance": "high",
+          "phi": [
+            "Kowalski^Anika",
+            "555-018-2047",
+            "anika.kowalski@example.test",
+            "20260602",
+            "170159",
+            "1780227119"
+          ]
+        }
+      ],
+      "pdf": {
+        "contains_phi": true,
+        "phi_importance": "high",
+        "phi": [
+          {
+            "type": "patient_name",
+            "value": "Kowalski Anika",
+            "source": "metadata.PatientName"
+          },
+          {
+            "type": "medical_record_number",
+            "value": "7538394",
+            "source": "metadata.PatientID"
+          },
+          {
+            "type": "date_of_birth",
+            "value": "19890316",
+            "source": "metadata.PatientBirthDate"
+          },
+          {
+            "type": "accession_number",
+            "value": "ACC-20260531-PDF010",
+            "source": "metadata.AccessionNumber"
+          },
+          {
+            "type": "ordering_physician",
+            "value": "Brooks Talia",
+            "source": "metadata.ReferringPhysicianName"
+          },
+          {
+            "type": "address",
+            "value": "246 Meadow Ridge Pl, Columbus, OH 43221",
+            "source": "metadata.PatientAddress"
+          },
+          {
+            "type": "phone_number",
+            "value": "555-018-2047",
+            "source": "metadata.PatientTelephoneNumbers"
+          },
+          {
+            "type": "email",
+            "value": "anika.kowalski@example.test",
+            "source": "pdf_only"
+          },
+          {
+            "type": "collected_date",
+            "value": "20260531",
+            "source": "pdf_only"
+          },
+          {
+            "type": "received_date",
+            "value": "20260601",
+            "source": "pdf_only"
+          },
+          {
+            "type": "reported_date",
+            "value": "20260602",
+            "source": "pdf_only"
+          },
+          {
+            "type": "electronically_signed_by",
+            "value": "Stone Claire",
+            "source": "pdf_only"
+          },
+          {
+            "type": "signed_date",
+            "value": "20260602",
+            "source": "pdf_only"
+          }
+        ]
+      }
+    }
+  ]
+}

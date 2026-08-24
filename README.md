@@ -12,7 +12,7 @@ This repository contains DICOM de-identification datasets, notebooks, metrics, a
 |---|---|
 | `Presidio/` | Dataset generation and Visual NLP vs Presidio evaluation. |
 | `Pixels_Platform/` | Visual NLP vs Databricks Pixels evaluation on the MIDI-B dataset. |
-| `Synthetic_V2/` | Synthetic dataset with pixel, PDF-encapsulated, metadata PHI, and ground truth files. |
+| `Synthetic_V2/` | Synthetic dataset with pixel PHI, PDF-encapsulated DICOM files, metadata PHI, and ground truth files. |
 | `resources/` | Root README diagrams and sample result images. |
 
 ## Experiments
@@ -22,6 +22,17 @@ This repository contains DICOM de-identification datasets, notebooks, metrics, a
 | Visual NLP vs Presidio | Synthetic text overlay DICOM dataset | pre-MIDI-Pixel Visual NLP pixel de-identification pipeline | [Presidio README](Presidio/README.md) |
 | Visual NLP vs Databricks Pixels | MIDI-B validation dataset | post-MIDI-Pixel Visual NLP de-identification pipeline | [Pixels Platform README](Pixels_Platform/README.md) |
 
+## Synthetic Dataset
+
+`Synthetic_V2/` contains the expanded synthetic DICOM dataset:
+
+| File | Description |
+|---|---|
+| `Synthetic_V2/data.zip` | Original and de-identified DICOM/image outputs. |
+| `Synthetic_V2/Image_Ground_Truth.json` | Ground truth for 40 pixel DICOM records with metadata and pixel PHI annotations. |
+| `Synthetic_V2/Encapsulated_Ground_Truth.json` | Ground truth for 10 PDF-encapsulated DICOM records with metadata and document PHI annotations. |
+
+See [Synthetic_V2 README](Synthetic_V2/README.md) for the archive layout and ground truth schema.
 
 ## Workflow Diagrams
 

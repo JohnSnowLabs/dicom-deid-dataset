@@ -2,29 +2,36 @@
 
 ![Sample DICOM](resources/pixel_metadata_sample.png)
 
-## Presidio — Comparison of Visual NLP vs Presidio
+## Overview
 
-- We use the **Pre MIDI-Pixel** Visual NLP de-identification pixels pipeline.
-- A unique dataset is created for this experiment.
-- Notebooks are present to run both the **Visual NLP** and **Presidio** solutions.
+This repository contains DICOM de-identification datasets, notebooks, metrics, and visual results for evaluating John Snow Labs Visual NLP across two comparison workflows.
 
-## Databricks Pixels Platform — Comparison of Visual NLP vs Pixels
+## Repository Structure
 
-- We use the **Post MIDI-Pixel** Visual NLP de-identification pipeline.
-- The **MIDI-B** dataset is used for this experiment.
-- Notebooks are present for the **Visual NLP** solution.
+| Path | Description |
+|---|---|
+| `Presidio/` | Dataset generation and Visual NLP vs Presidio evaluation. |
+| `Pixels_Platform/` | Visual NLP vs Databricks Pixels evaluation on the MIDI-B dataset. |
+| `resources/` | Root README diagrams and sample result images. |
 
-## Flow Diagram
+## Experiments
 
-### Dicom Pixel / Complete Flow Diagram
+| Experiment | Dataset | Pipeline | Details |
+|---|---|---|---|
+| Visual NLP vs Presidio | Synthetic text overlay DICOM dataset | pre-MIDI-Pixel Visual NLP pixel de-identification pipeline | [Presidio README](Presidio/README.md) |
+| Visual NLP vs Databricks Pixels | MIDI-B validation dataset | post-MIDI-Pixel Visual NLP de-identification pipeline | [Pixels Platform README](Pixels_Platform/README.md) |
+
+## Workflow Diagrams
+
+### DICOM Pixel De-Identification
 
 ![De-Identification Flow Diagram](resources/fig_pipeline_overview.png)
 
-### DICOM Metadata De-Identification Flow Diagram
+### DICOM Metadata De-Identification
 
 ![Metadata Flow Diagram](resources/fig_metadata_workflow.png)
 
-## Results
+## Sample Results
 
 ### Pixel De-Identification
 
@@ -34,13 +41,11 @@
 
 ![Metadata De-Identification Result](resources/fig_ner_text_before_after.png)
 
-### DICOM De-Identification Flow Diagram
-
-## Speed Benchmarks
+## Speed Benchmark
 
 ### Dataset Description
 
-- **File count:** 100 files, with 10 frames per file — **1,000 total frames**.
+- **File count:** 100 files, with 10 frames per file - **1,000 total frames**.
 - **File size:** Varies from 70 MB to 400 MB per file.
 - **Frame scaling:** Frames are scaled down by 75% after extraction.
 
@@ -48,7 +53,7 @@
 
 | Role | Instance Type | GPU | vCPUs | Memory |
 |---|---|---|---|---|
-| Driver | m5d.16xlarge | — | 64 | 256 GB |
+| Driver | m5d.16xlarge | - | 64 | 256 GB |
 | Worker | g4dn.4xlarge (T4) | 16 GB | 16 | 64 GB |
 
 ### Benchmark Results
@@ -62,4 +67,4 @@
 ## References
 
 - **Medium Article:** [De-Identifying DICOM Files: A Step-by-Step Guide with John Snow Labs Visual NLP](https://medium.com/john-snow-labs/de-identifying-dicom-files-a-step-by-step-guide-with-john-snow-labs-visual-nlp-2c21b60f92a8)
-- **Visual NLP Workshop DICOM Notebooks:** [GitHub — visual-nlp-workshop / jupyter / Dicom](https://github.com/JohnSnowLabs/visual-nlp-workshop/tree/master/jupyter/Dicom)
+- **Visual NLP Workshop DICOM Notebooks:** [GitHub - visual-nlp-workshop / jupyter / Dicom](https://github.com/JohnSnowLabs/visual-nlp-workshop/tree/master/jupyter/Dicom)

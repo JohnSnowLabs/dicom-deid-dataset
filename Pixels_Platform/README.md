@@ -56,7 +56,7 @@ The results demonstrate a clear trade-off between precision and sensitivity acro
 * **Visual NLP (Pre-MIDI-B)**: Our initial **experimentation phase** established the strongest baseline for sensitivity, achieving the highest recall (0.8286) and F1-score out-of-the-box.
 * **Visual NLP (Post-MIDI-B)**: Following **post-experimentation refinement**, we matched the 1.0 precision of the Pixels platform but reached a recall of 0.7143.
 
-**Conclusion**: The curated Visual NLP pipeline delivers a **2.5x improvement in recall** over the Pixels platform, ensuring clinical-grade accuracy without the risk of false positives.
+**Conclusion**: On this MIDI-B benchmark, the curated Visual NLP pipeline improves recall by **2.5x** over the Pixels baseline while maintaining 1.0 precision in the reported results.
 
 ## Platform Notes
 

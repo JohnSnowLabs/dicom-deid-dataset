@@ -12,6 +12,7 @@ This repository contains DICOM de-identification datasets, notebooks, metrics, a
 |---|---|
 | `Presidio/` | Dataset generation and Visual NLP vs Presidio evaluation. |
 | `Pixels_Platform/` | Visual NLP vs Databricks Pixels evaluation on the MIDI-B dataset. |
+| `Synthetic_V2/` | Planned synthetic dataset with pixel, PDF-encapsulated, metadata PHI, and ground truth files. |
 | `resources/` | Root README diagrams and sample result images. |
 
 ## Experiments
@@ -20,6 +21,15 @@ This repository contains DICOM de-identification datasets, notebooks, metrics, a
 |---|---|---|---|
 | Visual NLP vs Presidio | Synthetic text overlay DICOM dataset | pre-MIDI-Pixel Visual NLP pixel de-identification pipeline | [Presidio README](Presidio/README.md) |
 | Visual NLP vs Databricks Pixels | MIDI-B validation dataset | post-MIDI-Pixel Visual NLP de-identification pipeline | [Pixels Platform README](Pixels_Platform/README.md) |
+
+## Synthetic_V2
+
+`Synthetic_V2` is planned as an expanded synthetic dataset section containing:
+
+- Pixel data with PHI.
+- PDF-encapsulated DICOM data.
+- Metadata with PHI.
+- Ground truth files for the synthetic PHI.
 
 ## Workflow Diagrams
 

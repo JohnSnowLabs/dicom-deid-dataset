@@ -23,7 +23,7 @@ This repository contains DICOM de-identification datasets, notebooks, metrics, a
 
 ## Workflow Diagrams
 
-### DICOM Pixel De-Identification
+### DICOM De-Identification
 
 ![De-Identification Flow Diagram](resources/fig_pipeline_overview.png)
 
@@ -67,4 +67,4 @@ This repository contains DICOM de-identification datasets, notebooks, metrics, a
 ## References
 
 - **Medium Article:** [De-Identifying DICOM Files: A Step-by-Step Guide with John Snow Labs Visual NLP](https://medium.com/john-snow-labs/de-identifying-dicom-files-a-step-by-step-guide-with-john-snow-labs-visual-nlp-2c21b60f92a8)
-- **Visual NLP Workshop DICOM Notebooks:** [GitHub - visual-nlp-workshop / jupyter / Dicom](https://github.com/JohnSnowLabs/visual-nlp-workshop/tree/master/jupyter/Dicom)
+- **Visual NLP Workshop DICOM Notebooks:** [GitHub - visual-nlp-workshop / jupyter / DICOM](https://github.com/JohnSnowLabs/visual-nlp-workshop/tree/master/jupyter/Dicom)

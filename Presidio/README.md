@@ -12,6 +12,26 @@ This directory contains the synthetic-overlay DICOM dataset workflow and the Vis
 
 ## Dataset
 
+### Download Dataset
+
+Install the Hugging Face Hub client:
+
+```bash
+pip install -U huggingface_hub
+```
+
+Download the dataset into a local `data/` directory:
+
+```python
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="nk1221/Synthetic_Dicom_V1",
+    repo_type="dataset",
+    local_dir="./dicom_files"
+)
+```
+
 ### Public Dataset
 
 This dataset has been created to evaluate medical image de-identification methods. Our approach was inspired by the paper "A DICOM dataset for evaluation of medical image de-identification", which explores synthetic overlays in DICOM images. As a starting point, we used the publicly available Pseudo-PHI DICOM dataset. (See attached license for details.)

@@ -86,9 +86,17 @@ The notebooks validate de-identified outputs by running OCR and metadata extract
 | Notebook | Files Evaluated | Metadata Passed | Metadata Failed | PHI Passed | PHI Failed |
 |---|---:|---:|---:|---:|---:|
 | `Visual_NLP_Pixel_DeIdentification.ipynb` | 40 | 1,040 | 0 | 120 | 0 |
-| `Visual_NLP_Encapsulated_PDF_DeIdentification.ipynb` | 10 | 280 | 0 | 114 | 14 |
+| `Visual_NLP_Encapsulated_PDF_DeIdentification.ipynb` | 10 | 280 | 0 | 127 | 1 |
 
-For the pixel DICOM workflow, all metadata and pixel PHI checks passed in the notebook output. For the PDF-encapsulated workflow, all metadata checks passed, with 114 document PHI checks passing and 14 remaining failures.
+For the pixel DICOM workflow, all metadata and pixel PHI checks passed in the notebook output. For the PDF-encapsulated workflow, all metadata checks passed, with 127 document PHI checks passing and 1 remaining failures.
+
+### Pixel De-Identification Results
+
+![Pixel Deid Example](../resources/Pixel_Deid_Before_After.png)
+
+### PDF De-Identification Results
+
+![PDF Deid Example](../resources/Pdf_Deid_Before_After.png)
 
 ## Ground Truth Files
 

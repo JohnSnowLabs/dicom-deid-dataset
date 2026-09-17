@@ -90,9 +90,13 @@ The notebooks validate de-identified outputs by running OCR and metadata extract
 
 For the pixel DICOM workflow, all metadata and pixel PHI checks passed in the notebook output. For the PDF-encapsulated workflow, all metadata checks passed, with 127 document PHI checks passing and 1 remaining failures.
 
-![Pixel Deid Example](resources/Pixel_Deid_Before_After.png)
+### Pixel De-Identification Results
 
-![Pdf Deid Example](resources/Pdf_Deid_Before_After.png)
+![Pixel Deid Example](../resources/Pixel_Deid_Before_After.png)
+
+### PDF De-Identification Results
+
+![PDF Deid Example](../resources/Pdf_Deid_Before_After.png)
 
 ## Ground Truth Files
 
